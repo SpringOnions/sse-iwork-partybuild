@@ -189,6 +189,206 @@ export default {
 
   }
 };
+let articleList = [{
+    articleID: 1,
+    article: "四个意识",
+    totalNum: 4,
+    getNum: 0,
+    wordsList: [{
+            wordsID: 101,
+            words: "政治意识",
+            isGet: false
+        },
+        {
+            wordsID: 102,
+            words: "大局意识",
+            isGet: false
+        },
+         {
+            wordsID: 103,
+            words: "核心意识",
+            isGet: false
+        },
+         {
+            wordsID: 104,
+            words: "看齐意识",
+            isGet: false
+        }
+    ]
+},
+{
+    articleID: 2,
+    article: "四个自信",
+    totalNum: 4,
+    getNum: 0,
+    wordsList: [{
+            wordsID: 201,
+            words: "道路自信",
+            isGet: false
+        },
+        {
+            wordsID: 202,
+            words: "理论自信",
+            isGet: false
+        },
+         {
+            wordsID: 203,
+            words: "制度自信",
+            isGet: false
+        },
+         {
+            wordsID: 204,
+            words: "文化自信",
+            isGet: false
+        }
+    ]
+},
+{
+    articleID: 3,
+    article: "“五位一体”总体布局",
+    totalNum:5,
+    getNum: 0,
+    wordsList: [{
+            wordsID: 301,
+            words: "经济建设",
+            isGet: false
+        },
+        {
+            wordsID: 302,
+            words: "政治建设",
+            isGet: false
+        },
+         {
+            wordsID: 303,
+            words: "文化建设",
+            isGet: false
+        },
+         {
+            wordsID: 304,
+            words: "社会建设",
+            isGet: false
+        },
+         {
+            wordsID: 305,
+            words: "生态文明建设",
+            isGet: false
+        }
+    ]
+},{
+    articleID: 4,
+    article: "“四个全面”战略布局",
+    totalNum:4,
+    getNum: 0,
+    wordsList: [{
+            wordsID: 401,
+            words: "全面建成小康",
+            isGet: false
+        },
+        {
+            wordsID: 402,
+            words: "全面深化改革",
+            isGet: false
+        },
+         {
+            wordsID: 403,
+            words: "全面依法治国",
+            isGet: false
+        },
+         {
+            wordsID: 404,
+            words: "全面从严治党",
+            isGet: false
+        }
+    ]
+},
+{
+    articleID: 5,
+    article: "四个伟大",
+    totalNum:4,
+    getNum: 0,
+    wordsList: [{
+            wordsID: 501,
+            words: "进行伟大斗争",
+            isGet: false
+        },
+        {
+            wordsID: 502,
+            words: "建设伟大工程",
+            isGet: false
+        },
+         {
+            wordsID: 503,
+            words: "推进伟大事业",
+            isGet: false
+        },
+         {
+            wordsID: 504,
+            words: "实现伟大梦想",
+            isGet: false
+        }
+    ]
+},
+{
+    articleID: 6,
+    article: "党的六大纪律",
+    totalNum:6,
+    getNum: 0,
+    wordsList: [{
+            wordsID: 601,
+            words: "政治纪律",
+            isGet: false
+        },
+        {
+            wordsID: 602,
+            words: "组织纪律",
+            isGet: false
+        },
+         {
+            wordsID: 603,
+            words: "廉洁纪律",
+            isGet: false
+        },
+         {
+            wordsID: 604,
+            words: "群众纪律",
+            isGet: false
+        },
+         {
+            wordsID: 605,
+            words: "工作纪律",
+            isGet: false
+        },
+         {
+            wordsID: 606,
+            words: "生活纪律",
+            isGet: false
+        }
+    ]
+},
+{
+    articleID: 7,
+    article: "上交所文化价值体系",
+    totalNum:3,
+    getNum: 0,
+    wordsList: [{
+            wordsID: 701,
+            words: "价值口号：至诚至公 全球融通 建世界领先交易所",
+            isGet: false
+        },
+        {
+            wordsID: 702,
+            words: "使命愿景：汇聚资本力量，服务实体经济，服务投资大众，服务发展大局；有效维护市场公开公平公正，有效配置国内国际资源，有效防范市场风险；建设成为安全高效，功能完备，与我国社会主义现代化强国相匹配的世界领先交易所。",
+            isGet: false
+        },
+         {
+            wordsID: 703,
+            words: "核心价值观：高效、透明、稳健  服务、进取、奉献",
+            isGet: false
+        }
+         
+    ]
+},
+]
 </script>
 <style lang="less">
 .party-container {
